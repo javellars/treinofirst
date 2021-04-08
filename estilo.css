@@ -1,0 +1,97 @@
+
+.icon_nav{
+    width:8% ;
+    height:8%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*           negócio que estiliza o botão do bootstrap(eu acho) mas eu ainda n consegui usar e depois tem que ver dnv
+.btn-pg{
+    color: #fff;
+    background-color: #F56E2A;
+    border-color: #F56E2A;
+}
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+*/
+
+.títulos{
+    font-weight: bold;
+    padding-top: 70px;
+   
+}
+
+.linear_grad{
+    height: 200px;
+    background: linear-gradient(orange,gray);
+    text-align: center;
+    margin-top: 40px;
+}
+                /*--------------------------------------------especificações-------------------------------------------------*/
+.right_linear{
+    height: 200px;
+    background: linear-gradient(to right,orange,gray);
+    text-align: center;
+    margin-top: 40px;
+}
+
+.left_linear{
+    height: 200px;
+    background: linear-gradient(to left,orange,gray);
+    text-align: center;
+    margin-top: 40px;
+}
+
+.top_linear{
+    height: 200px;
+    background: linear-gradient(to top right,orange,gray);
+    text-align: center;
+    margin-top: 40px;
+}
+
+.grau_linear{
+    height: 200px;
+    background: linear-gradient(230deg, orange,gray);
+    text-align: center;
+    margin-top: 40px;
+}
+
+.inicio_linear{
+    height: 200px;
+    background: linear-gradient(to right, orange 15%,gray);
+    text-align: center;
+    margin-top: 40px;
+}
+
+.mix_linear{
+    height: 200px;
+    background: linear-gradient(to right,red, orange, yellow, green, blue, indigo, violet);
+    text-align: center;
+    margin-top: 40px;
+}
+
+.repeat_linear{
+    height: 200px;
+    background: repeating-linear-gradient(to left, orange,gray 20%);
+    text-align: center;
+    margin-top: 40px;
+}
+
