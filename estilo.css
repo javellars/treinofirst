@@ -97,3 +97,72 @@
     margin-top: 40px;
 }
 
+/*gradiente radial*/
+
+.radial_grad{
+    height: 200px;
+    background: radial-gradient(orange, gray);
+    text-align: center;
+    margin-top: 40px;
+}
+
+/*especificações*/
+
+.inicio_radial{
+    height: 200px;
+    background: radial-gradient(orange, gray 20%);
+    text-align: center;
+    margin-top: 40px;
+}
+
+.forma_radial{
+    height: 200px;
+    background: radial-gradient(ellipse,orange, gray);
+    text-align: center;
+    margin-top: 40px;
+}
+
+.forma2_radial{
+    height: 200px;
+    background: radial-gradient(circle,orange, gray);
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* primeiro coloca horizontal depois o vertical na posição */
+
+.posição_radial{
+    height: 200px;
+    background: radial-gradient(20% 30%, orange, gray);
+    text-align: center;
+    margin-top: 40px;
+}
+
+.posição2_radial{
+    height: 200px;
+    background: radial-gradient(closest-corner at 40% 10%,orange, gray);
+    text-align: center;
+    margin-top: 40px;
+}
+
+.posição3_radial{
+    height: 200px;
+    background: radial-gradient(farthest-side at 10% 50%, orange, gray);
+    text-align: center;
+    margin-top: 40px;
+}
+
+.posição4_radial{
+    height: 200px;
+    background: radial-gradient(closest-side at 30% 60%, orange, gray);
+    text-align: center;
+    margin-top: 40px;
+}
+
+.repeat_radial{
+    height: 200px;
+    background: repeating-radial-gradient(orange, gray 25%);
+    text-align: center;
+    margin-top: 40px;
+}
+
