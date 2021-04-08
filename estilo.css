@@ -38,6 +38,7 @@
     padding-top: 70px;
    
 }
+                /*--------------------------------------------GRADIENTES-------------------------------------------------*/
 
 .linear_grad{
     height: 200px;
@@ -45,7 +46,8 @@
     text-align: center;
     margin-top: 40px;
 }
-                /*--------------------------------------------especificações-------------------------------------------------*/
+/*especificações*/
+
 .right_linear{
     height: 200px;
     background: linear-gradient(to right,orange,gray);
