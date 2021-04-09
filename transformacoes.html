@@ -1,18 +1,19 @@
 <!DOCTYPE html>
-<HTML lang="pt-br">
+<html lang="pt-br">
 <meta charset="utf-8">
     <head>
         <title>
-            Gradientes
+            Tranformações
         </title>
         <link rel="stylesheet" href="estilo.css">
         <link rel="stylesheet" href= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>        
-    </head>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+    </head>   
 <body>
+
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #A9A9A9	;">
         <div class="container-fluid">
             <img class="icon_nav" src="img/logo.png"  >                   
@@ -28,7 +29,7 @@
                 <a class="nav-link" href="gradiente.html">Gradiente</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Transformações</a>
+                <a class="nav-link" href="transformacoes.html">Transformações</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Filtros</a>
@@ -49,117 +50,44 @@
           </div>
         </div>
       </nav>
-                        
-<!--Linear-->
-      
-    <div class="linear_grad"> 
-        <h1 class="títulos"> 
-            <i>Gradientes lineares</i>
-        </h1>
-    </div>
-                                             <!--tipos de gradientes-->
+    
+<!--tranformações-->
 
-    <div class="right_linear">
-        <h1 class="títulos"> 
-            Começa da direita
-        </h1>
-    </div>
+<div class="translate">
+    <h1 class="títulos">
+        efeito translate
+    </h1>
+</div>
 
-    <div class="left_linear">
-        <h1 class="títulos"> 
-            Começa da esquerda
-        </h1>
-    </div>
+<div class="rotate">
+    <h1 class="títulos">
+        efeito rotate
+    </h1>
+</div>
 
-    <div class="top_linear">
-        <h1 class="títulos"> 
-            Começa de cima
-        </h1>
-    </div>
+<div class="rotate_properties"> <!--muda o ponto principal onde vai girar-->
+    <h1 class="títulos">
+        efeito rotate right bottom
+    </h1>
+</div>
 
-    <div class="grau_linear">
-        <h1 class="títulos"> 
-            Muda pelos graus
-        </h1>
-    </div>
+<div class="scale">
+    <h1 class="títulos">
+        efeito escale
+    </h1>
+</div>
 
-    <div class="inicio_linear">
-        <h1 class="títulos"> 
-            Começa quando manda
-        </h1>
-    </div>
+<div class="skew">
+    <h1 class="títulos">
+        efeito skew
+    </h1>
+</div>
 
-    <div class="mix_linear">
-        <h1 class="títulos"> 
-            Mix de cores
-        </h1>
-    </div>
+<div class="matrix">
+    <h1 class="títulos">
+        efeito matrix
+    </h1>
+</div>
 
-    <div class="repeat_linear">
-        <h1 class="títulos"> 
-            Começa quando manda
-        </h1>
-    </div>
-
-<!--Radial-->
-
-    <div class="radial_grad">
-      <h1 class="títulos"> 
-        <i>Gradientes radiais</i>
-      </h1>
-    </div>
-
-                                             <!--tipos de gradientes-->
-
-     <div class="inicio_radial">
-      <h1 class="títulos"> 
-        Você escolhe
-      </h1>
-    </div> 
-
-    <div class="forma_radial">
-      <h1 class="títulos"> 
-        elipse
-      </h1>
-    </div>
-
-    <div class="forma2_radial">
-      <h1 class="títulos"> 
-        circular
-      </h1>
-    </div>
-
-    <div class="posição_radial">
-      <h1 class="títulos"> 
-        closest
-      </h1>
-    </div>
-
-    <div class="posição2_radial">
-      <h1 class="títulos"> 
-        farthest
-      </h1>
-    </div>
-
-    <div class="posição3_radial">
-      <h1 class="títulos"> 
-        closest corner
-      </h1>
-    </div>
-
-    <div class="posição4_radial">
-      <h1 class="títulos"> 
-        farthest corner
-      </h1>
-    </div>
-
-    <div class="repeat_radial">
-      <h1 class="títulos"> 
-        Repetição
-      </h1>
-    </div>
-
-
-
-</body>
-</HTML>
+</body> 
+</html>
