@@ -221,3 +221,131 @@
     margin-top: 300px;
     transform: matrix(1,-0.3,0,1,0,0); /*scaleX, skewY, skewX, scaleY, translateX e translateY*/
 }
+
+/*tranformações 3D pra fazer depois*/
+
+/*filtros*/
+
+.alinhamento{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.imgfiltro{
+    width: 400px;
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.imgblur{
+    width: 400px;
+    height: 300px;
+    filter: blur(10px);
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.imgbrigthness{
+    width: 400px;
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    filter: brightness(150%) 
+}
+
+.imgcontrast{
+    width: 400px;
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    filter: contrast(200%);
+}
+
+.imgdropshadow{
+    width: 400px;
+    height: 300px;
+    margin-top:20px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    filter: drop-shadow(5px 5px 2px orange);/*horizontal, vertical, valor de disperção, cor da sombra*/
+}
+
+.imggreyscale{
+    width: 400px;
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    filter:grayscale(70%)
+}
+
+.imghuerotate{
+    width: 400px;
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    filter:hue-rotate(220deg)
+}
+
+.imginvert{
+    width: 400px;
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    filter:invert(100%)
+}
+
+.imgopacity{
+    width: 400px;
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    filter: opacity(50%);
+}
+
+.imgsaturate{
+    width: 400px;
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    filter: saturate(300%);
+}
+
+.imgsepia{
+    width: 400px;
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    filter:sepia(60%);
+}
+
+.lofi{
+    width: 400px;
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
