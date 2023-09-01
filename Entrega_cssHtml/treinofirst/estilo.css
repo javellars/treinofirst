@@ -1,0 +1,351 @@
+
+.icon_nav{
+    width:8% ;
+    height:8%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*           negócio que estiliza o botão do bootstrap(eu acho) mas eu ainda n consegui usar e depois tem que ver dnv
+.btn-pg{
+    color: #fff;
+    background-color: #F56E2A;
+    border-color: #F56E2A;
+}
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+*/
+
+.títulos{
+    font-weight: bold;
+    padding-top: 70px;
+   
+}
+                /*--------------------------------------------GRADIENTES-------------------------------------------------*/
+
+.linear_grad{
+    height: 200px;
+    background: linear-gradient(orange,gray);
+    text-align: center;
+    margin-top: 40px;
+}
+/*especificações*/
+
+.right_linear{
+    height: 200px;
+    background: linear-gradient(to right,orange,gray);
+    text-align: center;
+    margin-top: 40px;
+}
+
+.left_linear{
+    height: 200px;
+    background: linear-gradient(to left,orange,gray);
+    text-align: center;
+    margin-top: 40px;
+}
+
+.top_linear{
+    height: 200px;
+    background: linear-gradient(to top right,orange,gray);
+    text-align: center;
+    margin-top: 40px;
+}
+
+.grau_linear{
+    height: 200px;
+    background: linear-gradient(230deg, orange,gray);
+    text-align: center;
+    margin-top: 40px;
+}
+
+.inicio_linear{
+    height: 200px;
+    background: linear-gradient(to right, orange 15%,gray);
+    text-align: center;
+    margin-top: 40px;
+}
+
+.mix_linear{
+    height: 200px;
+    background: linear-gradient(to right,red, orange, yellow, green, blue, indigo, violet);
+    text-align: center;
+    margin-top: 40px;
+}
+
+.repeat_linear{
+    height: 200px;
+    background: repeating-linear-gradient(to left, orange,gray 20%);
+    text-align: center;
+    margin-top: 40px;
+}
+
+/*gradiente radial*/
+
+.radial_grad{
+    height: 200px;
+    background: radial-gradient(orange, gray);
+    text-align: center;
+    margin-top: 40px;
+}
+
+/*especificações*/
+
+.inicio_radial{
+    height: 200px;
+    background: radial-gradient(orange, gray 20%);
+    text-align: center;
+    margin-top: 40px;
+}
+
+.forma_radial{
+    height: 200px;
+    background: radial-gradient(ellipse,orange, gray);
+    text-align: center;
+    margin-top: 40px;
+}
+
+.forma2_radial{
+    height: 200px;
+    background: radial-gradient(circle,orange, gray);
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* primeiro coloca horizontal depois o vertical na posição */
+
+.posição_radial{
+    height: 200px;
+    background: radial-gradient(20% 30%, orange, gray);
+    text-align: center;
+    margin-top: 40px;
+}
+
+.posição2_radial{
+    height: 200px;
+    background: radial-gradient(closest-corner at 40% 10%,orange, gray);
+    text-align: center;
+    margin-top: 40px;
+}
+
+.posição3_radial{
+    height: 200px;
+    background: radial-gradient(farthest-side at 10% 50%, orange, gray);
+    text-align: center;
+    margin-top: 40px;
+}
+
+.posição4_radial{
+    height: 200px;
+    background: radial-gradient(closest-side at 30% 60%, orange, gray);
+    text-align: center;
+    margin-top: 40px;
+}
+
+.repeat_radial{
+    height: 200px;
+    background: repeating-radial-gradient(orange, gray 25%);
+    text-align: center;
+    margin-top: 40px;
+}
+
+                /*--------------------------------------------TRANSFORMAÇÕES-------------------------------------------------*/
+
+.translate{
+    height: 200px;
+    width: 1270px;
+    text-align: center;
+    background: orange;
+    transform: translate(50px,100px); /*prmeiro valor do X depois valor do Y*/
+}
+
+.rotate{
+    height: 200px;
+    width: 1270px;
+    text-align: center;
+    background: gray;
+    margin-top: 330px;
+    transform: rotate(15deg); /*indica os valores com o grau*/
+}
+
+.rotate_properties{
+    height: 200px;
+    width: 1270px;
+    text-align: center;
+    background: orange;
+    margin-top: 40px;
+    transform: rotate(15deg);
+    transform-origin: left bottom;
+}
+
+.scale{
+    height: 200px;
+    width: 1270px;
+    text-align: center;
+    background: gray;
+    margin-top: 330px;
+    transform:scale(1.0,0.7);
+}
+
+.skew{
+    height: 200px;
+    width: 1270px;
+    text-align: center;
+    background: orange;
+    margin-top: 190px;
+    transform: skew(20deg, 10deg);
+}
+
+.matrix{
+    height: 200px;
+    width: 1270px;
+    text-align: center;
+    background: gray;
+    margin-top: 300px;
+    transform: matrix(1,-0.3,0,1,0,0); /*scaleX, skewY, skewX, scaleY, translateX e translateY*/
+}
+
+/*tranformações 3D pra fazer depois*/
+
+/*filtros*/
+
+.alinhamento{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.imgfiltro{
+    width: 400px;
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.imgblur{
+    width: 400px;
+    height: 300px;
+    filter: blur(10px);
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.imgbrigthness{
+    width: 400px;
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    filter: brightness(150%) 
+}
+
+.imgcontrast{
+    width: 400px;
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    filter: contrast(200%);
+}
+
+.imgdropshadow{
+    width: 400px;
+    height: 300px;
+    margin-top:20px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    filter: drop-shadow(5px 5px 2px orange);/*horizontal, vertical, valor de disperção, cor da sombra*/
+}
+
+.imggreyscale{
+    width: 400px;
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    filter:grayscale(70%)
+}
+
+.imghuerotate{
+    width: 400px;
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    filter:hue-rotate(220deg)
+}
+
+.imginvert{
+    width: 400px;
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    filter:invert(100%)
+}
+
+.imgopacity{
+    width: 400px;
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    filter: opacity(50%);
+}
+
+.imgsaturate{
+    width: 400px;
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    filter: saturate(300%);
+}
+
+.imgsepia{
+    width: 400px;
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    filter:sepia(60%);
+}
+
+.lofi{
+    width: 400px;
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}

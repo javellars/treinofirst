@@ -1,0 +1,52 @@
+body{
+    background-color: #fed99b;
+}
+
+.apr_conteudo{
+    padding: 110px;
+}
+
+.logo_circular{
+    margin-top: 15px;
+    margin: 60px;
+    text-align: center;
+    padding-top: 50px;
+    background-color: #d6efff ;
+    height: 140px;
+    width: 150px;
+    margin-bottom: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    border-style:hidden;
+    border-top-left-radius: 250px;
+    border-bottom-left-radius: 250px;
+    border-top-right-radius: 250px;
+    border-bottom-right-radius: 250px;
+}
+/* tudo que tiver com underline é css que eu criei, os outros do html são nativos do bootstrap*/
+
+#bloco1{
+    margin-top: 15px;
+}
+
+.textbox{
+    text-align: justify;
+    background-color: rgba(248, 245, 243, 0.5);
+    height: 200px;
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    padding: 5px;
+    font-family: garamond;
+    font-size: large;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.titulos{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
